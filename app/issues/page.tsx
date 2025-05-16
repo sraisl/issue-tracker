@@ -1,12 +1,13 @@
-'use client';
+'use client'
 
 import React from 'react';
 import { Button } from "@radix-ui/themes";
+import Link from "next/link";
 
 const IssuesPage = () => {
     return (
         <div>
-            <Button>New Issue</Button>
+            <Button><Link href="/issues/new">new Issue</Link></Button>
         </div>
     );
 };
